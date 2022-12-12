@@ -1,0 +1,1 @@
+# beauty_bar_test
