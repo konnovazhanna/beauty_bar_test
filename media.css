@@ -1,0 +1,291 @@
+@media screen and (max-width:1200px) {
+    /* экраны 1200px и меньше */
+    
+    .header__topmenu p {
+        display: none;
+    }
+
+
+    .messengers {
+        display: none;
+    }
+
+    .header__mainmenu--list {
+        display: none;
+    }
+
+
+    .header__button {
+        display: none;
+    }
+
+    .header__hamburger {
+        display: block;
+        background-color:#252525;
+        border: none;
+        padding: 0;
+        width: 55px;
+        height: 55px;
+        transform: translate(-50%, -50%);
+
+    } 
+    
+    .courses__block--center {
+        grid-template-columns: 1fr;
+        
+    }
+
+}
+
+/* Главная */
+@media screen and (max-width: 744px) {
+    .phone-media {
+        display: none;
+    }
+
+    .header-top__social-network {
+        display: none;
+    }
+    
+    .header-menu {
+        display: none;
+    }
+
+    .header-bottom {
+        width: 100%;
+    }
+
+    .header-bottom .button-enroll {
+        display: none;
+    }
+
+    .header-burger {
+        display: block;
+        background-color: #252525;
+        /* box-shadow: 1px 1px 0px #FB37FF, -1px -1px  #FB37FF; */
+        position: absolute;
+        margin-right: 0;
+        display: none;
+        z-index: 110;
+    }
+
+    .burger-inactive {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    
+    .services-and-prices {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Прайсы */
+/* настройки для аддаптива*/
+/* какой-то отступ в services */
+@media screen and (max-width: 1140px) {
+    .top-menu {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .top-menu__p {
+        display: none;
+    }
+
+    .icons--prop a {
+        display: none;
+    }
+
+    .mein-menu--burger {
+        display: none;
+    }
+  
+    .hamburger--activ {
+        display: block;
+    }
+
+/* УБРАТЬ <br>, чтобы вид текста соответствовал дизайну */
+    h1 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #000;
+        margin: 0;
+    }
+
+    .title-textprop {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .price {
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .price-block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        max-width: 336px;
+    }
+
+    .price-block .price-block__item {
+        margin-bottom: 0;
+        height: 477px;
+        margin-bottom: 100px;
+    }
+
+    .price-block--img-prop {
+        margin: 0;
+        max-width: 336px;
+        max-height: 341px;
+
+    }
+
+    .price-block__item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+
+    .footer-left__list {
+        margin: 0;
+    }
+
+    .footer-left__list li:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .footer-logo img {
+        max-width: 88px;
+        max-height: 144px;
+    }
+
+    .footer p {
+        margin: 0;
+        margin-top: 70px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        color: #000;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    .top-menu__contacts {
+        width: 100%;
+    }
+
+    .header-menu {
+        text-align: left;
+    }
+    
+    .header-menu p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .mein-menu {
+        display: flex;
+        justify-content: left;
+    }
+
+    .logo {
+        height: 33px;
+        max-width: 180px;
+    }
+
+    .price {
+        padding-bottom: 0;
+        padding-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .price-block {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        grid-row-gap: none;
+    }
+
+    .price-block .price-block__item {
+        margin-bottom: 50px;
+        max-width: 290px;
+        max-height: 400px;
+    }
+
+    .price-item--padding:not(:last-child) {
+        padding-bottom: 50px;
+    }
+
+    .text-margin {
+        margin-top: 85px;
+    }
+
+    .price-block--name-size {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .price-block--img-prop {
+        width: 290px;
+        height: 277px;
+    }
+
+    .footer {
+        display: flex;
+        max-height: 325px;
+    }
+
+
+    .footer-prop {
+        display: flex;
+        text-align: center;
+    }
+
+    .footer-left {
+        width: 100%;
+    }
+
+    .footer-logo img {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+
+    .footer-left__list {
+        display: none;
+    }
+    
+    .icons-footer--prop {
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: 35px;
+    }
+
+    .footer-right p {
+        display: none;
+    }
+
+}
